@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORMULARIO DE TAREA</title>
+</head>
+<body>
+    <section>
+        <div>
+            <img src="./assets.html/imagen/form-tarea.png" alt="Imagen de tarea">
+        </div>
+    </section>
+
+    <form>
+        <section>
+            <div>
+                <h1>My feedback form</h1>
+            </div>
+        </section>
+
+        <section>
+            <div>
+                <label for="nombre">Name</label>
+                <input
+                    type="text"
+                    id="nombre"
+                    name="nombre"
+                    placeholder="lopezlopez"
+                    maxlength="15"
+                    minlength="10"
+                    required>
+            </div>
+        </section>
+
+        <section>
+            <div>
+                <label for="email">Email</label>
+                <input
+                    type="text"
+                    id="email"
+                    name="email"
+                    placeholder="lopezlopez123@gmail.com"
+                    required>   
+            </div>
+        </section>
+
+        <section>
+            <div>
+                <label for="password">Password</label>
+                <input
+                    type="password"
+                    id="password"
+                    name="password">
+            </div>
+        </section>
+
+        <section>
+            <div>
+                <h2>Please check all the emotions that apply to you:</h2>
+            </div>
+        </section>
+
+        <section>
+            <div>
+                <label for="Angry">Angry</label>
+                <input
+                    type="checkbox"
+                    id="Angry"
+                    name="Angry">
+                <label for="Sad">Sad</label>
+                <input
+                    type="checkbox"
+                    id="Sad"
+                    name="Sad">
+                <label for="Happy">Happy</label>
+                <input
+                    type="checkbox"
+                    id="Happy"
+                    name="Happy">
+                <label for="Ambivalent">Ambivalent</label>
+                <input
+                    type="checkbox"
+                    id="Ambivalent"
+                    name="Ambivalent">
+            </div>
+        </section>
+
+        <section>
+            <div>
+                <h2>How satisfied were you with our service</h2>
+            </div>
+        </section>
+
+        <section>
+            <div>
+                <label for="Very Satisfied">Very Satisfied</label>
+                <input
+                    type="radio"
+                    id="Very Satisfied"
+                    name="emotion">
+                </label>
+                <label for="Very dissatisfied">Very dissatisfied</label>
+                <input
+                    type="radio"
+                    id="Very dissatisfied"
+                    name="emotion">
+            </div>
+        </section>
+
+        <section>
+            <div>
+                <label for="comment">Further comments</label>
+                <textarea
+                    name="comment"
+                    id="comment"
+                    placeholder="comments here..."
+                    rows="10"
+                    cols="30"
+                    maxlength="300">
+                </textarea>    
+            </div>
+        </section>
+
+        <section>
+            <div>
+                <label for="docs">Bio photo</label>
+                <input
+                    type="file"
+                    name="docs"
+                    id="docs">
+            </div>
+        </section>
+
+        <section>
+            <div>
+                <label for="location">Location visited</label>
+                <select id="location" name="location">
+                    <option value="AR">ARGENTINA</option>
+                    <option value="BR">BRASIL</option>
+                    <option value="CH">CHILE</option>
+                    <option value="UR">URUGUAY</option>
+                </select>
+            </div>
+        </section>
+
+        <section>
+            <div>
+                <button type="submit">SUBMIT</button>
+            </div>
+        </section>
+    </form>
+</body>
+</html>
