@@ -1,2 +1,7 @@
 En <input type="radio" el "name" debe ser el mismo en cada etiqueta
 y el <label for="" debe ser igual que el "id".
+
+En <input type="checkbox" el "name" debe ser el mismo en cada etiqueta 
+y el <label for="" debe ser igual que el "id"
+
+Los "id" de radio y checkbox no pueden ser iguales.
