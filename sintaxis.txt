@@ -1,0 +1,2 @@
+En <input type="radio" el "name" debe ser el mismo en cada etiqueta
+y el <label for="" debe ser igual que el "id".
