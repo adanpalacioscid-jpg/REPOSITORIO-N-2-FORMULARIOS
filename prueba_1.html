@@ -3,9 +3,156 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>PRUEBA_1</title>
 </head>
 <body>
-    
+    <form>
+        <h1>Universidad de Miskatonic</h1>
+            <div>
+                <span>Dpto de estudios ocultos</span>
+            </div>
+
+            <div>
+                <label for="nombre">Nombre Completo</label>
+                <input
+                    type="text"
+                    id="nombre"
+                    name="nombre"
+                    placeholder="Herbest West"
+                    maxlength="15"
+                    minlength="10"
+                    required>
+            </div>
+
+            <div>
+                <label for="fecha de nacimiento">Fecha de nacimiento</label>
+                <input
+                    type="text"
+                    id="fecha"
+                    name="fecha"
+                    required>
+            </div>
+
+        <section>
+            <div>
+                <span>¿Experiencia previa en lo oculto?</span>
+            </div>
+            <div>
+                <label for="experiencia">Ninguna</label>
+                <input 
+                    type="radio"
+                    id="experiencia"
+                    name="experiencia-previo">
+            </div>
+            <div>
+                <label for="estudios marginales">Estudios marginales</label>
+                <input
+                    type="radio"
+                    id="estudios marginales"
+                    name="experiencia-previo"> 
+            </div>
+            <div>
+                <label for="Susurros">Susurros en sueños</label>
+                <input
+                    type="radio"
+                    id="Susurros"
+                    name="experiencia-previo">
+            </div>
+        </section>
+
+        <section>
+            <div>
+                <span>Niveles estimados de locura (elegir 3 opciones)</span>
+            </div>
+
+            <div>
+                <label for="Etapa-1">Etapa 1</label>
+                <input
+                    type="checkbox"
+                    id="Etapa-1"
+                    name="locura">
+            </div>
+            <div>
+                <label for="Etapa-2">Etapa 2</label>
+                <input
+                    type="checkbox"
+                    id="Etapa-2"
+                    name="locura">
+            </div>
+            <div>
+                <label for="Etapa-3">Etapa 3</label>
+                <input
+                    type="checkbox"
+                    id="Etapa-3"
+                    name="locura">
+            </div>
+            <div>
+                <label for="Etapa-4">Etapa 4</label>
+                <input
+                    type="checkbox"
+                    id="Etapa-4"
+                    name="locura">
+            </div>
+            <div>
+                <label for="Etapa-5">Etapa 5</label>
+                <input
+                    type="checkbox"
+                    id="Etapa-5"
+                    name="locura">
+            </div>
+            <div>
+                <label for="Etapa-6">Etapa 6</label>
+                <input
+                    type="checkbox"
+                    id="Etapa-6"
+                    name="locura">
+            </div>
+        </section>
+
+        <section>
+            <span>Describe tu primer encuentro con lo invisible</span>
+            
+            <div>
+                <label for="comentario"></label>
+                <textarea
+                    name="comentario"
+                    id="comentario"
+                    placeholder="Dejanos tu comentario"
+                    rows="10"
+                    cols="30"
+                    maxlength="300">
+                </textarea>
+            </div>
+        </section>
+
+        <section>
+            <div>
+                <span>Consentimiento y Juramento</span>
+            </div>
+
+            <div>
+                <label for="juramento">Acepto que mi mente puede fragmentarse-SI</label>
+                <input
+                    type="radio"
+                    name="juramento"
+                    id="juramento">
+            </div>
+
+            <div>
+                <label for="juramento">Acepto que mi mente puede fragmentarse-NO</label>
+                <input
+                    type="radio"
+                    name="juramento"
+                    id="juramento">
+            </div>
+        </section>
+
+        <section>
+            <div>
+                <span>Firma del Vinculado</span>
+            </div>
+        </section>
+            <button type="submit">DECLARAR</button>
+    </form>
 </body>
 </html>
